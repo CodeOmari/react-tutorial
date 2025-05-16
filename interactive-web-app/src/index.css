@@ -43,6 +43,9 @@ body{
   border-right: 3px solid rgb(224, 215, 215);
   border-bottom: 3px solid rgb(224, 215, 215);
 }
+input{
+  padding-left: 8px;
+}
 .text-box{
   margin-right: 10px;
   height: 30px;
