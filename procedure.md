@@ -8,4 +8,8 @@
 
 ## react-data
 
+## react-state
+
+## ternary-operator
+
 ## interactive web app
