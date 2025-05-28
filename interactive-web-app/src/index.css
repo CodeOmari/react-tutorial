@@ -67,3 +67,8 @@ input{
   padding: 5px;
   text-align: center;
 }
+.list{
+  margin-left: 35px;
+  padding-top: 10px;
+  color: #000000;
+}
