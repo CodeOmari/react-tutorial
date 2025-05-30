@@ -23,10 +23,16 @@ body{
 .profile{
   width: 180px;
 }
+.fav-btn{
+  height: 40px;
+  border-style: none;
+  background-color: #fff;
+}
 .logo{
   width: 25px;
-  margin-top: 14px;
+  margin-top: 5px;
   margin-bottom: 14px;
+  cursor: pointer;
 }
 .name{
   padding-bottom: 10px;
