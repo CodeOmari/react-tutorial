@@ -8,17 +8,16 @@ export default function Content(){
         <li key={ingredient}> {ingredient} </li>
     ))
 
-    function handleSubmit(event){
-        event.preventDefault()
+    function handleSubmit(formData){
+        // event.preventDefault()
         
-        const formData = new FormData(event.currentTarget)
         const newIngredient = formData.get('ingredient')
 
         setIngredients(prevIngredients => [...prevIngredients, newIngredient])
     }
     return(
         <div className="form">
-            <form onSubmit={handleSubmit}>
+            <form action={handleSubmit}>
                 {/* 
                     aria-label provides alternative text for elements that do not have visible text on the
                     screen, making them accessible to users using assistive technologies e.g. screen readers
