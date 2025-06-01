@@ -10,7 +10,7 @@ export default function Content(){
         lastName: "Doe",
         phone: "+254724461091",
         email: "johndoe@gmail.com",
-        isFavorite: true
+        isFavorite: false
     })
 
     let starIcon = contact.isFavorite ? starFilled : starEmpty
