@@ -16,6 +16,6 @@
 
 ## react-forms
 
-## conditiona;-rendering
+## conditional-rendering
 
 ## interactive web app
