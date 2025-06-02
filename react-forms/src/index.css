@@ -36,8 +36,25 @@ body{
 }
 .submit-btn{
   width: 200px;
-  margin-left: 20px;
+  margin-left: 55px;
+  margin-top: 20px;
   height: 35px;
   border-radius: 5px;
   border: 2px solid gray;
+}
+.title{
+  padding-bottom: 8px;
+  font-size: 1.1em;
+}
+.select-gender{
+  margin-left: 20px;
+  width: 220px;
+  border-radius: 5px;
+}
+.select-gender label{
+  padding: 10px;
+  margin-top: 10px;
+}
+.select-gender label input{
+  padding: 5px;
 }
