@@ -39,9 +39,6 @@ body{
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
-  border-left: 3px solid rgb(224, 215, 215);
-  border-right: 3px solid rgb(224, 215, 215);
-  border-bottom: 3px solid rgb(224, 215, 215);
 }
 input{
   padding-left: 8px;
@@ -67,8 +64,48 @@ input{
   padding: 5px;
   text-align: center;
 }
+.list-title{
+  padding-top: 10px;
+  font-size: 1.3em;
+  padding-left: 7px;
+}
 .list{
   margin-left: 35px;
   padding-top: 10px;
   color: #000000;
+}
+.ingredients-container{
+  border-bottom: 3px solid rgb(224, 215, 215);
+}
+.ingredients-list{
+  margin-left: 151px;
+  margin-top: -30px;
+  padding-bottom: 15px;
+}
+.ai-container{
+  margin-left: 153px;
+  background-color: rgb(224, 215, 215);
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+.recipe-title{
+  padding-bottom: 12px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.recipe-btn{
+  margin-left: 270px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: rgb(218, 100, 100);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.description{
+  font-weight: 500;
+  color: rgb(163, 154, 154);
 }
