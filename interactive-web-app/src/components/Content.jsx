@@ -16,21 +16,50 @@ export default function Content(){
         setIngredients(prevIngredients => [...prevIngredients, newIngredient])
     }
     return(
-        <div className="form">
-            <form action={handleSubmit}>
-                {/* 
-                    aria-label provides alternative text for elements that do not have visible text on the
-                    screen, making them accessible to users using assistive technologies e.g. screen readers
-                */}
+        <div>
+            <div className="form">
+                <form action={handleSubmit}>
+                    {/* 
+                        aria-label provides alternative text for elements that do not have visible text on the
+                        screen, making them accessible to users using assistive technologies e.g. screen readers
+                    */}
 
-                <input type="text" placeholder="e.g. Pepper " aria-label="add ingredient" className="text-box" name="ingredient" />
+                    <input type="text" placeholder="e.g. Pepper " aria-label="add ingredient" className="text-box" name="ingredient" />
 
-                <button className="add-btn">&#43; Add ingredient</button>
+                    <button className="add-btn">&#43; Add ingredient</button>
+                </form>
+            </div>
 
-                <ul className="list">
-                    {ingredientsList}
-                </ul>
-            </form>
+            {
+                ingredients.length > 0 &&
+
+                <div className="ingredients-container">
+                    <div className="ingredients-list">
+                        <h2 className="list-title">Ingredients on hand:</h2>
+
+                        <ul className="list">
+                            {ingredientsList}
+                        </ul>
+                    </div>
+
+                    {
+                        ingredients.length > 2 &&
+
+                        <div className="ai-container">
+                            <p className="recipe-title">Ready for a recipe?</p>
+
+                            <button className="recipe-btn">Get a recipe</button>
+
+                            <p className="description">
+                                Generate a recipe from your list of ingredients
+                            </p>
+                        </div>
+                    }
+                </div>
+            }
         </div>
     )
 }
+
+
+
