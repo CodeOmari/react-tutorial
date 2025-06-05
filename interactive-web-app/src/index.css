@@ -76,6 +76,8 @@ input{
 }
 .ingredients-container{
   border-bottom: 3px solid rgb(224, 215, 215);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .ingredients-list{
   margin-left: 151px;

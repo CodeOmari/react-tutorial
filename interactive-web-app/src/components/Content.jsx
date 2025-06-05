@@ -42,6 +42,13 @@ export default function Content(){
                         </ul>
                     </div>
 
+
+
+                    {/* 
+                        will only be displayed if the ingredients list is atleast 2 items using conditional
+                        rendering
+                    */}
+
                     {
                         ingredients.length > 2 &&
 
